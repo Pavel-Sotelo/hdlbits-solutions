@@ -5,5 +5,5 @@ module top_module(
 );// Module body starts after semicolon
 	
 	// Fun fact: For Quartus synthesis, not assigning a value to a signal usually results in 0. This problem is actually easier than the previous one.
-
+	// Instead you could use assign zero = 0; 
 endmodule
