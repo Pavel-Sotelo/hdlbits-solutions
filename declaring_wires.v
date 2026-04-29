@@ -1,4 +1,4 @@
-`default_nettype none
+`default_nettype none     // disables implicit wire creations, typos become errors instead of silent bugs
 module top_module(input a,b,c,d, 
                 output out,out_n);
     // when we need to make internal connections on the module, like connecting 2 gates, we need to declare a wire, example: 
