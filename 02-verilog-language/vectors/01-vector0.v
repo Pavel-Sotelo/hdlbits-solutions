@@ -1,5 +1,7 @@
 //vectors are used to combine separate wires into a simple name
 
+//Create a cricuit that has one 3-bit input, then outputs the same vector, and also splits it into three separate 1-bit outputs
+
 module top_module(
     input wire [2:0] vec,
     output wire[2:0] outv,    //We have to declare what type of connection outv is, to match the input
