@@ -13,4 +13,6 @@ module top_module (
 //wire [7:0] data;      // declaration — range before name
 //assign out = data[3:0]; // usage — range after name
 
+// Concatenation operator also works: assign {out_hi, out_lo} = in;
+
 endmodule
