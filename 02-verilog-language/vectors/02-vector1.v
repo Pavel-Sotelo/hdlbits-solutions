@@ -7,7 +7,7 @@ module top_module (
     				output wire [7:0] out_lo
                     );
 
-    assign out_hi = in[15:8];  //but for assigning, we put the name of the varible first and then range
+    assign out_hi = in[15:8];  //but for assigning, we put the name of the variable first and then the range
     assign out_lo = in[7:0];
 
 //wire [7:0] data;      // declaration — range before name
