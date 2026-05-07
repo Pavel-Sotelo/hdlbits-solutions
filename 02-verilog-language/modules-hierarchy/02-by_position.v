@@ -1,4 +1,4 @@
-//instance the module mod_a by position. mod_a that has 2 outputs and 4 inputs, in that order.
+//instantiate the module mod_a by position. mod_a that has 2 outputs and 4 inputs, in that order.
 
 module top_module (
     input wire a,b,c,d,
